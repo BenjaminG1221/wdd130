@@ -2,6 +2,7 @@
 body {
   background-color: #0068c9; 
   font-family: 'Libre Baskerville', 'Dosis','Courier New';
+  font-size: 22px;
 }
 header {
   background-color:#a8bb00;
@@ -18,6 +19,8 @@ nav a {
 } 
 .home-title {
   color: #2b3127;
+  font-size: 2em;
+  font-family: 'Dosis', Courier, monospace;
 } 
 .book, .join {
   background-color:white;
@@ -32,10 +35,11 @@ nav a {
   background-color: #474B24;
 }  
 .msg h2 {
-  color: #373b11;
+  color: #111303;
+  font-family: 'Dosis', Courier, monospace;
 } 
 .msg p {
-  color: #373b11;
+  color: #111303;
 } 
 footer {
  
