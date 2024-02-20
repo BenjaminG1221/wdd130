@@ -53,12 +53,9 @@ footer a{
   color: #2b3127;
   text-decoration: none;
 }            
-  div {
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
-    text-align: center;
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
   }
 .icon {
   width: 80px;
