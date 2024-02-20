@@ -3,6 +3,8 @@ body {
   background-color: #0068c9; 
   font-family: 'Libre Baskerville', 'Dosis','Courier New';
   font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 header {
   background-color:#a8bb00;
@@ -12,20 +14,28 @@ nav a:hover {
   background-color: #474B24;
   color: #2b3127;
 }
+#logo_link {
+  padding-top: 5px;
+}
 nav a {
   text-align: center;
   color: #2b3127;
   text-decoration: none;
+  padding: 35px;
 } 
 .home-title {
   color: #2b3127;
   font-size: 2em;
   font-family: 'Dosis', Courier, monospace;
+  margin-top: 10px;
 } 
 .book, .join {
   background-color:white;
-  color: #2b3127;
+  color: #000000;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
 }  
 .book:hover, .join:hover {
   background-color:rgb(236, 146, 146);
@@ -33,19 +43,29 @@ nav a {
 }   
 .msg {
   background-color: #474B24;
+  padding: 35px;
 }  
+h2 {
+  margin: 0;
+}
 .msg h2 {
   color: #111303;
   font-family: 'Dosis', Courier, monospace;
 } 
 .msg p {
   color: #111303;
+  font-size: .8em;
+  padding-bottom: 15px;
 } 
 footer {
- 
+  margin-top: 200px;
+  padding: 25px 50px;
   background-color: #a8bb00;
   color: #2b3127;
 } 
+footer .social img {
+  padding-top: 15px;
+}
 footer p {
   font-size: 1.2em;
 }   
@@ -65,6 +85,7 @@ footer a{
   }
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 .logo {
   width: 80px;
@@ -86,4 +107,6 @@ footer a{
   height: 725px;
   background-color: #0068c9;
   }
-              
+  .rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+  }             
