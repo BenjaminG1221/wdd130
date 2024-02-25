@@ -65,7 +65,7 @@ nav a {
 } 
 .home-grid {
   display: grid;
-  grid-template-columns: 10;
+  grid-template-columns: 10fr ;
 }
 .home-title {
   color: #2b3127;
